@@ -13,6 +13,8 @@
 		9C95C0641BD7FC0B008063C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C95C0621BD7FC0B008063C3 /* Main.storyboard */; };
 		9C95C0661BD7FC0C008063C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C95C0651BD7FC0C008063C3 /* Assets.xcassets */; };
 		9C95C0691BD7FC0C008063C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C95C0671BD7FC0C008063C3 /* LaunchScreen.storyboard */; };
+		9CC5EF481BD9229E00A9D2DC /* Vista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5EF471BD9229E00A9D2DC /* Vista.swift */; settings = {ASSET_TAGS = (); }; };
+		9CC5EF4A1BD922D900A9D2DC /* Vista.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5EF491BD922D900A9D2DC /* Vista.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9C95C0651BD7FC0C008063C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C95C0681BD7FC0C008063C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C95C06A1BD7FC0C008063C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC5EF471BD9229E00A9D2DC /* Vista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista.swift; sourceTree = "<group>"; };
+		9CC5EF491BD922D900A9D2DC /* Vista.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Vista.xib; sourceTree = "<group>"; };
 		FCD37F3EE1C1D32672C64812 /* Pods-PruebaFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaFont.release.xcconfig"; path = "Pods/Target Support Files/Pods-PruebaFont/Pods-PruebaFont.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +81,8 @@
 				9C95C0671BD7FC0C008063C3 /* LaunchScreen.storyboard */,
 				9C95C06A1BD7FC0C008063C3 /* Info.plist */,
 				9C0AFF141BD832C000AD6450 /* PruebaFont-Bridging-Header.h */,
+				9CC5EF471BD9229E00A9D2DC /* Vista.swift */,
+				9CC5EF491BD922D900A9D2DC /* Vista.xib */,
 			);
 			path = PruebaFont;
 			sourceTree = "<group>";
@@ -152,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C95C0691BD7FC0C008063C3 /* LaunchScreen.storyboard in Resources */,
+				9CC5EF4A1BD922D900A9D2DC /* Vista.xib in Resources */,
 				9C95C0661BD7FC0C008063C3 /* Assets.xcassets in Resources */,
 				9C95C0641BD7FC0B008063C3 /* Main.storyboard in Resources */,
 			);
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C95C0611BD7FC0B008063C3 /* ViewController.swift in Sources */,
+				9CC5EF481BD9229E00A9D2DC /* Vista.swift in Sources */,
 				9C95C05F1BD7FC0B008063C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
